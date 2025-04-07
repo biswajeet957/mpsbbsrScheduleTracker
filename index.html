@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MPS Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Login Page -->
+  <div id="loginPage">
+    <button id="loginBtn">MPS LOGIN</button>
+  </div>
+
+  <!-- Home Page -->
+  <div id="homePage" class="hidden">
+    <header>
+      <div class="logo">🪲</div>
+      <div class="company-name">Mahalaxmi Pest Service</div>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <div id="menu" class="hidden">
+        <ul>
+          <li onclick="showPage('home')">Home</li>
+          <li onclick="showPage('service')">Service Bill</li>
+          <li onclick="showPage('help')">Help</li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Home Content -->
+    <div id="home" class="page">
+      <table>
+        <thead>
+          <tr>
+            <th>Count</th>
+            <th>Hotel Name</th>
+            <th>Service Dates</th>
+            <th>Service Type</th>
+            <th>Submit</th>
+          </tr>
+        </thead>
+        <tbody id="scheduleTable"></tbody>
+      </table>
+    </div>
+
+    <!-- Service Bill Page -->
+    <div id="service" class="page hidden">
+      <ul id="hotelList"></ul>
+    </div>
+
+    <!-- Help Page -->
+    <div id="help" class="page hidden">
+      <p>Email: <a href="mailto:mpsbbsr.corporate@gmail.com">mpsbbsr.corporate@gmail.com</a></p>
+      <p>Phone: +91-8458040113</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

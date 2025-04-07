@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #loginPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, purple, green);
+  }
+  
+  #loginBtn {
+    font-size: 24px;
+    padding: 20px 40px;
+    border: none;
+    color: white;
+    background-color: #4B0082;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 28px;
+  }
+  
+  .company-name {
+    font-size: 24px;
+  }
+  
+  .menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  #menu ul {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: green;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  #menu li {
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .page {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
